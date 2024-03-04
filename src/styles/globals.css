@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	html {
+		@apply scroll-smooth;
+	}
+
+	body {
+		@apply relative z-1 font-inter text-base font-normal -tracking-[0.16px] text-body;
+	}
+}
+
+@layer components {
+	.dropdown {
+		@apply left-0 hidden min-w-max flex-col gap-0 rounded-lg bg-white p-2.5 shadow-dropdown duration-200 ease-in dark:bg-gray-dark xl:invisible
+    xl:absolute xl:flex xl:w-[220px] xl:translate-y-10 xl:opacity-0
+    xl:group-hover:visible xl:group-hover:translate-y-7 xl:group-hover:opacity-100;
+	}
+
+	.account-dropdown {
+		@apply left-0 hidden min-w-max flex-col gap-0 rounded-lg bg-white p-2.5 shadow-dropdown duration-200 ease-in dark:bg-gray-dark lg:invisible
+    lg:absolute lg:flex lg:translate-y-4 lg:opacity-0 lg:group-hover:visible
+    lg:group-hover:translate-y-2 lg:group-hover:opacity-100 xl:w-[220px];
+	}
+}
+
+@layer utilities {
+	/* Chrome, Safari and Opera */
+	.no-scrollbar::-webkit-scrollbar {
+		display: none;
+	}
+
+	.no-scrollbar {
+		-ms-overflow-style: none; /* IE and Edge */
+		scrollbar-width: none; /* Firefox */
+	}
+}
+
+.active {
+	@apply bg-primary/5 text-primary dark:bg-white/5 dark:text-white;
+}

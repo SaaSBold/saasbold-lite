@@ -1,0 +1,47 @@
+{
+	"name": "saasbold-lite",
+	"version": "0.1.0",
+	"private": true,
+	"engines": {
+		"node": ">=14.0.0"
+	},
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"stripe:listen": "stripe listen --forward-to http://localhost:3000/api/stripe/webhook",
+		"check-format": "prettier --check .",
+		"check-lint": "eslint . --ext ts --ext tsx --ext js",
+		"check-style": "npm run check-format && npm run check-lint",
+		"fix-format": "prettier --write .",
+		"fix-lint": "eslint --fix .",
+		"fix-style": "npm run fix-format && npm run fix-lint",
+		"test-build": "npm run check-style && npm run build"
+	},
+	"dependencies": {
+		"next": "14.0.4",
+		"next-themes": "^0.2.1",
+		"nextjs-toploader": "^1.6.6",
+		"react": "^18",
+		"react-dom": "^18.2.0"
+	},
+	"devDependencies": {
+		"@types/node": "^20",
+		"@types/react": "^18",
+		"@types/react-dom": "^18",
+		"@typescript-eslint/eslint-plugin": "^6.18.0",
+		"@typescript-eslint/parser": "^6.18.0",
+		"autoprefixer": "^10.0.1",
+		"eslint": "^8.56.0",
+		"eslint-config-next": "^14.0.4",
+		"eslint-config-prettier": "^9.1.0",
+		"eslint-plugin-prettier": "^5.1.2",
+		"eslint-plugin-react": "^7.33.2",
+		"eslint-plugin-react-hooks": "^4.6.0",
+		"postcss": "^8",
+		"prettier": "^3.1.1",
+		"prettier-plugin-tailwindcss": "^0.5.11",
+		"tailwindcss": "^3.3.0",
+		"typescript": "^5.3.3"
+	}
+}
