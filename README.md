@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+SaaSBold is a full-stack SaaS boilerplate for Next.js - crafted with great attention to both front-end and back-end functionality. Developer experience has been a key focus, comes with all the essential integrations features with a one-click deployment option on Vercel.
 
-## Getting Started!
+## SaaSBold Features and Integrations
 
-First, run the development server:
+### 💳 Payments and Subscriptions
+- Stripe integration for billing users
+- Paddle and LemonSqueezy support coming soon
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### 🔒 Authentication
+- Magic Link, Social Login/Auth, Email/Pass Authentication
+- Automatic sync of user data in PostgreSQL
+- Private/protected pages & API Calls
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 📧 Emails
+- Seamless transactional email solution 
+- Built-in Email Templates for various purposes 
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 🛠️ Database
+- Ready-to-use PostgreSQL database with Prisma integration 
+- Easily switch to other databases like MySQL or MongoDB 
+- Efficient performance and database management 
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### 👩‍💼 Admin Dashboard 
+ - Manage user roles, permissions, and access controls  
+ - UI Components for Admin Dashboard 
 
-## Learn More
+### 👤 User Dashboard    
+ - Control account settings and preferences   
+ - Intuitive interface with smooth API integrations  
 
-To learn more about Next.js, take a look at the following resources:
+### 📰 Marketing / Newsletter     
+ - Automatically add new users to MailChimp list    
+ - Send newsletters to your SaaS user base
+  
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Detailed comparison between the free, starter, and professional versions of SaaSBold
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+| Feature             | Lite | Starter | Professional |
+|---------------------|------------|----------|--------------|
+| Next.js Landing Page and Components             | ✅ Yes      | ✅ Yes      | ✅ Yes    |
+| All The Integrations             | ❌ No      | ✅ Yes | ✅ Yes |
+| Functional Blog with Sanity       | ❌ No      | ✅ Yes | ✅ Yes |
+| Functional Admin Dashboard         | ❌ No         | ❌ No       | ✅ Yes          |
+| Functional User Dashboard           | ❌ No         | ❌ No       | ✅ Yes          |
+| Figma Design Source File | ❌ No         | ❌ No        | ✅ Yes     | ✅ Yes     |
+| Use with Commercial Projects            | ✅ Yes      | ✅ Yes      | ✅ Yes    |
+| Lifetime Free Updates             | ✅ Yes      | ✅ Yes | ✅ Yes |
+| Email Support       | ❌ No         | ✅ Yes       | ✅ Yes          |
+| Community Support         | ✅ Yes         | ✅ Yes       | ✅ Yes          |
