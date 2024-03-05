@@ -51,7 +51,7 @@ SaaSBold is a **full-stack SaaS boilerplate** for Next.js - crafted with great a
 
 | Feature             | Lite | Starter | Professional |
 |---------------------|------------|----------|--------------|
-| Next.js Landing Page and Components             | ✅ Yes      | ✅ Yes      | ✅ Yes    |
+| Next.js Landing Page             | ✅ Yes      | ✅ Yes      | ✅ Yes    |
 | All The Integrations             | ❌ No      | ✅ Yes | ✅ Yes |
 | Functional Blog with Sanity       | ❌ No      | ✅ Yes | ✅ Yes |
 | Functional Admin Dashboard         | ❌ No         | ❌ No       | ✅ Yes          |
