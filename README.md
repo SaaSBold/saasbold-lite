@@ -1,11 +1,47 @@
+# SaaSBold Lite
+
 SaaSBold is a **full-stack SaaS boilerplate** for Next.js - crafted with great attention to both front-end and back-end functionality. Developer experience has been a key focus, comes with all the essential integrations features with a one-click deployment option on Vercel.
 
-![saasbold](https://github.com/SaaSBold/saasbold-lite/assets/1244883/6ff1e518-d448-4a9a-a609-fc9a67959d94)
+![Saasbold](https://github.com/SaaSBold/saasbold-lite/assets/1244883/6ff1e518-d448-4a9a-a609-fc9a67959d94)
 
-#### [🚀 Live Demo](https://demo.saasbold.com/)
-#### [📘 Documentation](https://docs.saasbold.com/)
-#### [☕ Website](https://saasbold.com/)
-#### [🔥 Pricing and FAQ](https://saasbold.com/#pricing)
+- [🚀 Live Demo](https://demo.saasbold.com/)
+- [📘 Documentation](https://saasbold.com/docs)
+- [☕ Website](https://saasbold.com/)
+- [🔥 Pricing and FAQ](https://saasbold.com/#pricing)
+
+
+## Installation
+
+### Prerequisites
+To get started with SaaSBold, ensure you have the following prerequisites installed and set up:
+
+- Node.js 18.x or later (recommended to use Node.js 20.x or later)
+
+### Cloning the Repository
+Clone the repository using the following command:
+
+```bash
+git clone https://github.com/SaaSBold/saasbold-lite.git
+```
+
+> Windows Users: If you face issues while cloning, place the repository near the root of your drive.
+
+1. Install dependencies:
+    ```bash
+    npm install
+    # or
+    yarn install
+    ```
+    > Some included packages may cause peer-deps issue with React 19 while installing.
+    >
+    > On npm use the `--legacy-peer-deps` flag as a workaround for that at the moment.
+
+2. Start the development server:
+    ```bash
+    npm run dev
+    # or
+    yarn dev
+    ```
 
 
 ## SaaSBold Features and Integrations ⚡
