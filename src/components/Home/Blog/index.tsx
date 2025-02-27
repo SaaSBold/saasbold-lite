@@ -1,38 +1,37 @@
-import React from "react";
-import BlogItem from "@/components/Blog/BlogItem";
-import SectionHeader from "@/components/Common/SectionHeader";
-import { Blog } from "@/types/blog";
+import BlogItem from '@/components/Blog/BlogItem';
+import SectionHeader from '@/components/Common/SectionHeader';
+import type { Blog } from '@/types/blog';
 
 const posts: Blog[] = [
   {
     _id: 1,
     title:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent condimentum dictum euismod",
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent condimentum dictum euismod',
     metadata:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent condimentum dictum euismod malesuada lacus, non consequat quam.",
-    mainImage: "/images/blog/blog-1.png",
-    author: "John Doe",
-    publishedAt: "2022-01-01",
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent condimentum dictum euismod malesuada lacus, non consequat quam.',
+    mainImage: '/images/blog/blog-1.png',
+    author: 'John Doe',
+    publishedAt: '2022-01-01',
   },
   {
     _id: 2,
     title:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent condimentum dictum euismod",
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent condimentum dictum euismod',
     metadata:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent condimentum dictum euismod malesuada lacus, non consequat quam.",
-    mainImage: "/images/blog/blog-2.png",
-    author: "John Doe",
-    publishedAt: "2022-01-01",
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent condimentum dictum euismod malesuada lacus, non consequat quam.',
+    mainImage: '/images/blog/blog-2.png',
+    author: 'John Doe',
+    publishedAt: '2022-01-01',
   },
   {
     _id: 3,
     title:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent condimentum dictum euismod",
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent condimentum dictum euismod',
     metadata:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent condimentum dictum euismod malesuada lacus, non consequat quam.",
-    mainImage: "/images/blog/blog-3.png",
-    author: "John Doe",
-    publishedAt: "2022-01-01",
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent condimentum dictum euismod malesuada lacus, non consequat quam.',
+    mainImage: '/images/blog/blog-3.png',
+    author: 'John Doe',
+    publishedAt: '2022-01-01',
   },
 ];
 
@@ -44,7 +43,7 @@ const Blog = async () => {
     >
       {/* <!-- section title --> */}
       <SectionHeader
-        title={"Latest Blogs & News"}
+        title={'Latest Blogs & News'}
         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent condimentum dictum euismod malesuada lacus, non consequat quam."
       />
 
