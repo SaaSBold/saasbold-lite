@@ -16,9 +16,8 @@ const PriceItem = ({ plan }: Props) => {
 
   return (
     <div
-      className={`relative  rounded-[20px] p-10 shadow-dropdown ${
-        active ? "bg-primary" : "bg-white dark:bg-gray-dark"
-      }`}
+      className={`relative  rounded-[20px] p-10 shadow-dropdown ${active ? "bg-primary" : "bg-white dark:bg-gray-dark"
+        }`}
     >
       {active && (
         <span
@@ -30,24 +29,21 @@ const PriceItem = ({ plan }: Props) => {
 
       <div className="mb-7 flex items-center gap-5">
         <div
-          className={`flex h-18 w-full max-w-[72px] items-center justify-center rounded-2xl ${
-            active ? "bg-white/10" : "bg-primary/10"
-          }`}
+          className={`flex h-18 w-full max-w-[72px] items-center justify-center rounded-2xl ${active ? "bg-white/10" : "bg-primary/10"
+            }`}
         >
           <Image src={plan?.icon} alt={plan?.nickname} width={34} height={34} />
         </div>
         <div>
           <span
-            className={`block text-lg font-medium dark:text-gray-4 ${
-              active && "text-white"
-            }`}
+            className={`block text-lg font-medium dark:text-gray-4 ${active && "text-white"
+              }`}
           >
             {plan?.subtitle}
           </span>
           <h3
-            className={`font-satoshi text-2xl font-bold ${
-              active ? "text-white" : "text-black dark:text-white"
-            }`}
+            className={`font-satoshi text-2xl font-bold ${active ? "text-white" : "text-black dark:text-white"
+              }`}
           >
             {plan.nickname}
           </h3>
@@ -60,30 +56,26 @@ const PriceItem = ({ plan }: Props) => {
 
       {/* <!-- divider --> */}
       <div
-        className={`my-6 h-px w-full ${
-          active ? "bg-white/30" : "bg-stroke dark:bg-stroke-dark"
-        }`}
+        className={`my-6 h-px w-full ${active ? "bg-white/30" : "bg-stroke dark:bg-stroke-dark"
+          }`}
       ></div>
 
       <h4
-        className={`mb-4.5 font-satoshi text-heading-4 font-bold leading-[1.22] lg:text-heading-2 xl:text-[54px] ${
-          active ? "text-white" : "text-[#170F49] dark:text-white"
-        }`}
+        className={`mb-4.5 font-satoshi text-heading-4 font-bold leading-[1.22] lg:text-heading-2 xl:text-[54px] ${active ? "text-white" : "text-[#170F49] dark:text-white"
+          }`}
       >
         ${plan?.unit_amount / 100}
         <span
-          className={`ml-1 text-xl font-medium -tracking-[0.3px] ${
-            active ? "text-white" : "text-gray-6 dark:text-white"
-          }`}
+          className={`ml-1 text-xl font-medium -tracking-[0.3px] ${active ? "text-white" : "text-gray-6 dark:text-white"
+            }`}
         >
           /monthly
         </span>
       </h4>
 
       <h5
-        className={`mb-7.5 font-satoshi text-lg font-bold -tracking-[0.2px] dark:text-white ${
-          active ? "text-white" : "text-black"
-        }`}
+        className={`mb-7.5 font-satoshi text-lg font-bold -tracking-[0.2px] dark:text-white ${active ? "text-white" : "text-black"
+          }`}
       >
         What&apos;s included
       </h5>
@@ -120,7 +112,7 @@ const PriceItem = ({ plan }: Props) => {
       </ul>
 
       <button
-        className={`mt-9 flex w-full justify-center rounded-full  p-3.5 font-satoshi font-medium ${activeStyle}`}
+        className={`mt-9 flex w-full justify-center rounded-full  p-3.5 font-satoshi font-medium cursor-pointer ${activeStyle}`}
       >
         Get Started
       </button>

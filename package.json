@@ -1,9 +1,9 @@
 {
   "name": "saasbold-lite",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "private": true,
   "engines": {
-    "node": ">=14.0.0"
+    "node": ">=20"
   },
   "scripts": {
     "dev": "next dev",
@@ -19,16 +19,18 @@
     "test-build": "npm run check-style && npm run build"
   },
   "dependencies": {
-    "next": "^15.2.4",
+    "next": "^16.0.8",
     "next-themes": "^0.2.1",
     "nextjs-toploader": "^1.6.6",
-    "react": "19.0.0",
-    "react-dom": "19.0.0"
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1"
   },
   "devDependencies": {
-    "@types/node": "^20",
-    "@types/react": "19.0.10",
-    "@types/react-dom": "19.0.4",
+    "@prisma/client": "^7.1.0",
+    "@tailwindcss/postcss": "^4.1.17",
+    "@types/node": "^24.10.2",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
     "@typescript-eslint/eslint-plugin": "^6.18.0",
     "@typescript-eslint/parser": "^6.18.0",
     "autoprefixer": "^10.0.1",
@@ -41,7 +43,8 @@
     "postcss": "^8",
     "prettier": "^3.1.1",
     "prettier-plugin-tailwindcss": "^0.5.11",
-    "tailwindcss": "^3.3.0",
+    "prisma": "^7.1.0",
+    "tailwindcss": "^4.1.17",
     "typescript": "^5.3.3"
   }
 }

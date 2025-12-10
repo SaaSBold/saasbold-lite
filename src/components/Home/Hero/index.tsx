@@ -40,7 +40,7 @@ const Hero = () => {
 
 				<Link
 					href='#'
-					className='inline-flex items-center gap-4 rounded-full bg-black py-2 pl-7.5 pr-2 font-satoshi font-medium text-white hover:bg-opacity-90 dark:bg-primary'
+					className='inline-flex items-center gap-4 rounded-full bg-black py-2 pl-7.5 pr-2 font-satoshi font-medium text-white hover:bg-black/90 dark:bg-primary hover:dark:bg-primary'
 				>
 					<span> Try Demo </span>
 					<span className='inline-flex h-9 w-9 items-center justify-center rounded-full bg-primary text-white dark:bg-white dark:text-primary'>

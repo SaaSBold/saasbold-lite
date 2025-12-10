@@ -15,7 +15,7 @@ const CallToAction = () => {
 
         <Link
           href="#"
-          className="mt-7.5 inline-flex rounded-full bg-white px-7 py-3 font-satoshi font-medium -tracking-[0.2px] text-black hover:bg-opacity-90"
+          className="mt-7.5 inline-flex rounded-full bg-white px-7 py-3 font-satoshi font-medium -tracking-[0.2px] text-black hover:bg-white/90"
         >
           Try Live Demo
         </Link>
